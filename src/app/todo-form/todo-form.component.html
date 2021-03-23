@@ -1,0 +1,10 @@
+<div class="container">
+  <input type="text"
+         placeholder="add todos title...."
+         [(ngModel)]="values"
+  >
+  <button
+    (click)="addedTasks()"
+    (keydown.enter)="addedTasks()"
+  >add tasks</button>
+</div>
